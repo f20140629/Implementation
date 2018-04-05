@@ -1,6 +1,6 @@
-#Graph 
+# Graph 
 
-#bfs 
+# bfs 
 The C++ implementation uses adjacency list representation of graphs
 
 ```cpp
