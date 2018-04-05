@@ -20,7 +20,7 @@ int main(){
 
 # bfs 
 The C++ implementation uses adjacency list representation of graphs
-
+[bfs](https://www.youtube.com/watch?time_continue=59&v=0u78hx-66Xk)
 ```cpp
 void bfs(int s){
 	visited=new bool[V];
