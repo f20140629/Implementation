@@ -1,12 +1,11 @@
 # Graph 
 Representation of Graph 
-```
+```cpp
 bool *visited;
 vint *a;
 int V;
 int E;
-int main(){
-	
+int main(){	
 	cin>>V>>E;
 	a=new vint[V];
 	repeat(0,E,i){
@@ -22,7 +21,7 @@ int main(){
 # bfs 
 The C++ implementation uses adjacency list representation of graphs
 
-```
+```cpp
 void bfs(int s){
 	visited=new bool[V];
 	fill_n(visited,V,false);
