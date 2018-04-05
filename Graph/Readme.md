@@ -43,3 +43,27 @@ void bfs(int s){
 	ent;
 }
 ```
+
+# dfs
+()[]
+```cpp
+void _dfs(int v){
+	cout<<v<<" ";
+	visited[v]=true;
+	tr(a[v],it){
+		if(!visited[*it])
+			_dfs(*it);
+	}
+}
+
+void dfs(){
+	visited=new bool[V];
+	fill_n(visited,V,false);
+	repeat(0,V,i){
+		if(!visited[i])
+			_dfs(i);
+	}
+}
+```
+
+
